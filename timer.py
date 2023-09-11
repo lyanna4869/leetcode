@@ -18,7 +18,7 @@ def beeper(interval, duration, times, times_interval):
         times -= 1
 
 
-interval = 300  # seconds
+interval = 180  # seconds
 duration = 2  # seconds
 freq = 550  # Hz
 beeper(interval, duration, times=1, times_interval=1)
